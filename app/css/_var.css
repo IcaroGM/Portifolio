@@ -1,0 +1,13 @@
+/* Cores */
+:root{
+    --Fundo: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    --Cor01: #3f51b1 ;
+    --Cor02: #5a55ae ;
+    --Cor03: #7b5fac ;
+    --Cor04: #8f6aae ;
+    --Cor05: #a86aa4 ;
+    --Cor06: #cc6b8e ;
+    --Cor07: #f18271 ;
+    --Cor08: #f3a469;
+    --Cor09: #f7c978;
+}

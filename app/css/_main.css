@@ -1,0 +1,128 @@
+main{
+    background-color: rgba(92, 89, 89, 0.7);
+    padding: 2rem;
+    border: solid chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    color: white;
+}
+
+main > h1{
+    text-align: center;
+}
+
+.Projetos{
+    border: solid rgb(255, 217, 0);
+    padding: 3%;
+    margin-top: 3%;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+    .Projeto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Projeto_Img{
+        width: 100%;
+        height: auto;
+    }
+    .Projeto_Texto{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    /* @media screen {
+       .projeto{
+        flex-direction: column ;
+       }   
+    } */
+
+.carousel-inner .d-block.w-100{
+    width: 25%;
+    height: auto;
+}
+    .carousel-inner > p {
+        font-size: larger;
+    }
+
+/* Experiências*/
+.Experiências{
+    border: solid rgb(0, 162, 255);
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+    .Experiência_Golrek{
+        background-color: var(--Cor04);
+        padding: 4%;
+        border-radius: 15px;
+    }
+
+    .Experiência_Didaticus{
+        background-color: var(--Cor02);
+        padding: 4%;
+        border-radius: 15px;
+    }
+
+    .Experiência_Sigma{
+        background-color: var(--Cor05);
+        padding: 4%;
+        border-radius: 15px;
+    }
+
+.Academico{
+    border: solid rgb(200, 162, 255);
+    padding: 5%;
+    margin-top: 5%;
+}
+
+    .Academico_Senai{
+        background-color: var(--Cor08);
+        padding: 4%;
+        border-radius: 15px;
+    }
+
+    .Academico_UnB{
+    background-color: var(--Cor06);
+    padding: 4%;
+    border-radius: 15px;
+    }
+
+.Idiomas{
+    border: solid rgb(0, 12, 255);
+    margin-top: 3%;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+    .Bandeirinha{
+        height: 4rem;
+    }
+
+.Habilidades{
+    border: solid rgb(0, 162, 5);
+    border-radius: 15px;
+    margin-top: 3%;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+    .Habilidades_SoftSkills{
+        background-color: var(--Cor06);
+        padding: 4%;
+        border-radius: 15px;
+        margin-top: 3%;
+    }
+    .Habilidades_HardSkills{
+        background-color: var(--Cor07);
+        padding: 4%;
+        border-radius: 15px;
+        margin-top: 3%;
+    }
+
+a{
+    color: white;
+}
+
+
+

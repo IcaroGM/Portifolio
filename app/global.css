@@ -1,0 +1,17 @@
+@import url(/app/css/_var.css);
+@import url(/app/css/_header.css);
+@import url(/app/css/_main.css);
+
+/* Zerando a página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+body{
+    background: var(--Fundo);
+    margin: 1.5rem;
+}
+
+

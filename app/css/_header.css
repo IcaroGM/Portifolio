@@ -1,0 +1,26 @@
+
+header{
+    border: solid rgb(0, 81, 255);
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1{
+   color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#Titulo{
+    border: solid rgb(255, 217, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.FotoPerfil{
+    width: 100%;
+    height: auto;
+}

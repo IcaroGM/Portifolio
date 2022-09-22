@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/app/global.css">
+  </head>
+  <body>
+
+    <header>
+        <div id="Titulo">
+          <h1>
+              Ícaro Moreira <br> Desenvolvedor Front-End <br> Em transição
+          </h1>
+          <div id="Perfil">
+              <img src="/img/Fotinha.png" alt="Foto perfil" class="FotoPerfil">
+          </div>
+        </div>
+        <br>
+        <div id="nav">
+          <nav>
+              <button type="button" id="Contato">
+                 <a href="/contato.html">Contato</a> 
+              </button>
+              <button type="button" id="home">
+                <a href="/index.html">Home</a>  
+              </button>  
+              <button type="button" id="curriculo">
+                  Currículo Impresso
+              </button>
+             <!--  </button>  
+              <button type="button" id="Segunda tentativa">
+                  <a href="/index2.html">Tente novamente</a> 
+              </button> -->
+          </nav>
+        </div>
+      </header>
+    
+    <br>
+
+    <!-- Carrossel filho da puta -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+      <!-- Botões -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+      <!-- Itens -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#Projetos">
+              <img src="/img/Projetos.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+            </a>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="#Experiências Profissionais">
+              <img src="/img/Experiências Profissionais.png" class="d-block w-100" alt="...">
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="#Academico"> 
+                <img src="/img/Formação.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+            </a>
+          </div>
+
+      <!-- JS do BootStrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      </div>
+
+      <!-- Estrutura de boões -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <br>
+
+    <main>
+    
+    <!-- Projetos que eu Fiz -->
+    <h1>Projetos</h1>
+    <Div class="Projetos" id="Projetos">   
+        
+        <!-- Estrutura de Projeto -->
+        <div class="Projeto" id="Projeto_SitePolicarpo">
+          <div>
+            <img src="/img/Projeto-SitePolicarpo.png" alt="Site para campanha  política" class="Projeto_Img">
+          </div>
+          <div class="Projeto_Texto">
+            <h3>Site Policarpo</h3>
+            <p>Neste projeto, atuei diretamente na criação do design da página e gestão da equipe de programação para atender a demanda direta do cliente. Neste projeto ouve o pedido de que o seite se assemelha-se  <a href="https://casa13.pt.org.br/" target="_blank">a um outro projeto já realizado</a> por uma outra equipe, a qual não tivemos contato. </p>
+          </div>
+        </div>
+
+        <br>
+        
+        <div class="Projeto" id="Projetos_SiteSaçaí">
+
+          <div>
+            <img src="/img/Projeto-SiteAçai.png" alt="Site de Açaí" class="Projeto_Img">
+          </div>
+
+          <div class="Projeto_Texto">
+            <h3>Site para loja de Açaí</h3>
+            <p>
+              Este site foi criado como projeto final no <a href="#Academico_Front-End">curso de Desenvolvimento Front-End do Senai</a>. Este projeto possuia algumas diretrizes onde foi imposto a criação de um carrinho para a compra do produto, sendo este construído por meio de JavaScript e sem a utilização de soluções pré prontas.
+            </p>
+          </div>
+
+        </div>
+        
+
+        <br>
+
+        <div class="Projeto" id="Projetos_SiteGiroDonne">
+          
+          <div>
+            <img src="/img/Projeto-SiteGiroDonne.png" alt="Site para competiÇão de ciclismo" class="Projeto_Img">
+          </div>
+          
+          <div class="Projeto_Texto">
+            <h3>Proposta de melhoria para site já existente</h3>
+            <p>
+                Este site foi criado no contexto do <a href="#Academico_Front-End">curso de Desenvolvimento Front-End do Senai.</a> Seu objetivo foi de apresentar uma nova proposta para a apresentação das informações ao publico que estava acompanhando uma das mais importantes competições do calendário feminino de ciclismo, que apesar de sua importância, possuia um site muito deficientes.
+            </p>
+          </div>
+          
+        </div>
+
+        <br>
+
+        <div class="Projeto">
+          <div id="Projetos_Site">
+            <img src="" alt="">
+            <div class="Projeto_Texto">
+              <h3>Título</h3>
+              <p>
+                Texto de apresentação
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </Div>
+
+    <!-- Experiências de trabalho -->
+      <h1>Experiências</h1>
+      <div class="Experiências" id="Experiências Profissionais">
+        
+  
+        
+        <div class="Experiência">
+          <div class="Experiência_Golrek">
+            <h3><a href="https://www.golrek.com.br/" target="_blank">Golrek Educação Complementar</a></h3>
+            <h4>Cordenador Pedagógico set 2018 - Atualmente</h4>
+              <ul>
+                <li>Avaliação de material didático</li>
+                <li>Desenvolvimento de plataforma digital de ensino com foco em atendimento personalizado</li>
+                <li>Atendimento a pais e professores</li>
+              </ul>
+          </div>
+        </div>
+        
+        <br>
+
+        <div class="Experiência">
+          <div class="Experiência_Didaticus">
+            <h3><a href="https://www.instagram.com/didaticusaulas/" target="_blank">Didaticus aulas particulares</a></h3>
+            <h4>Professor de História jan 2019 - jul 2022</h4>
+              <ul>
+                <li>Preparação de material didático e aplicação em aulasparticulares nas modalidades presencial e remoto paraestudantes do Ensino Fundamental 2 e Ensino Médio degrandes escolas do DF e entorno</li>
+              </ul>
+          </div>
+        </div>
+
+        <br>
+        
+        <div class="Experiência">
+          <div class="Experiência_Sigma">
+            <h3><a href="https://sigmadf.com.br/" target="_blank">Colégio Sigma</a></h3>
+            <h4>Professor auxiliar de história jan 2018 - jan 2019</h4>
+              <ul>
+                <li>Preparação de material didático e aplicação em monitórias e
+                  aprofundamento para ensino Fundamental 2</li>
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- Minha formação Acadêmica -->
+      <h1>Formação Acadêmica</h1>
+      <div class="Academico" id="Academico">
+        
+        
+        <br>
+        
+        <div class="Academico_Senai" id="Academico_Senai">
+          <h3>Senai</h3>
+          <h4>Qualificação proficional em Desenvolvedor Front-End DATA</h4>
+            <ul>
+              <li>Desenvolvimento de páginas para web.</li>
+              <li>Curso realizado entre junho a agosto de 2022.</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="Academico_UnB">
+          <h3>Universidade de Brasília</h3>
+          <h4>História Licenciatura jan 2019 - jul 2022</h4>
+            <ul>
+              <li>Projeto de iniciação científica agosto 2019 a agosto 2020 "A cartografia medieval e as múltiplas representações daÁsia"</li>
+              <li>Artigo para Trabalho de conclusão de curso “A virtude em史记, Registros do Historiador: uma proposta de leitura eestudo”(2021)</li>
+            </ul>
+        </div>
+        
+      </div>
+      
+      <br>
+
+      <h2>Idiomas</h2>
+      <div class="Idiomas">
+        
+        <ul>
+          <li>
+            <img src="/img/Bandeirinhas/Bandeirinha Inglaterra.svg" alt="Bandeira Inglarra" class="Bandeirinha">
+            Inglês - Avançado
+          </li>
+          <li>
+            <img src="/img/Bandeirinhas/Bandeira China.svg" alt="" class="Bandeirinha">
+            Mandarim - Intermediário
+          </li>
+
+          <li>
+            <img src="/img/Bandeirinhas/Bandeirinha Espanha.svg" alt="" class="Bandeirinha">
+            Espanhol - Básico
+          </li>
+          
+          <li>
+            <img src="/img/Bandeirinhas/Bandeirinha Grecia.svg" alt="" class="Bandeirinha">
+            Grego - Básico
+          </li>
+        </ul>
+      </div>
+
+      <br>
+      
+      <h2>Habilidades</h2>
+      <div class="Habilidades">
+        <div class="Habilidades_SoftSkills">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Comunicação Oral e Resolução de Conflitos</li>
+            <li>Pro-atividade</li>
+            <li>Trabalho em equipe</li>
+            <li>Criatividade</li>
+          </ul>
+        </div>
+        
+        <div class="Habilidades_HardSkills">
+          <h3>Hard Skills</h3>
+          <ul>  
+            <li>
+              Tratação de imagem e vídeo - Illustrator, lightroom, Photoshop, Gimp e Premiere
+            </li>
+            <li>
+              Criação de material visual -> Prezi, Canva, Google Apresentações e PowerPoint.
+            </li>
+            <li>
+              Controle e gestão de dados e quipes - Google Sheets, App Script, Execel
+            </li>
+          </ul>
+        </div>
+         
+      </div>
+
+      
+    
+    </main>
+  </body>
+</html>
