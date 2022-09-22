@@ -1,4 +1,2 @@
-//teste cindo do codercoder
-
-// Build Gulp Task
-exports.Build = series(scssTask, jsTask);
+//Build Gulp Task da codercoder
+exports.build = series(scssTask, jsTask);
