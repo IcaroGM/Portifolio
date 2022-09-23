@@ -1,6 +1,5 @@
 
 header{
-    border: solid rgb(0, 81, 255);
     align-items: center;
     padding: 0.5rem;
 }
@@ -15,7 +14,6 @@ header{
 }
 
 #Titulo{
-    border: solid rgb(255, 217, 0);
     display: flex;
     flex-direction: row;
 }
@@ -24,3 +22,15 @@ header{
     width: 100%;
     height: auto;
 }
+
+button{
+    color: black;
+}
+    button:hover{
+       background-color: blueviolet;
+    }
+
+    button > a{
+        color: black;
+        font-style: n;
+    }
