@@ -1,6 +1,7 @@
 @import url(/app/css/_var.css);
 @import url(/app/css/_header.css);
 @import url(/app/css/_main.css);
+@import url(/app/css/_footer.css);
 
 /* Zerando a página */
 *{

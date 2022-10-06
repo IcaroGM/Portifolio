@@ -97,7 +97,7 @@ main > a:hover {
 .Academico{
     /* border: solid rgb(200, 162, 255); */
     padding: 5%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
     .Academico_Senai{
@@ -152,5 +152,21 @@ a{
     color: white;
 }
 
+.Contato{
+    
+}
+    .Contato_Email_Button{
+        border-radius: 15px;
+        padding: 5px;
+    }
+    .Contato_Logo{
+        height: 50px;
+        width: 50px;
+    }
+    #Contato_LinkedIn_Titulo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
 

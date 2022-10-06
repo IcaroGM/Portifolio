@@ -25,6 +25,12 @@ header{
 
 button{
     color: black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: hsla(0, 0%, 100%, 0.384);
+    border-color: white;
+    border-width: 10px;
+
 }
     button:hover{
        background-color: blueviolet;
@@ -33,4 +39,5 @@ button{
     button > a{
         color: black;
         font-style: n;
+        text-decoration: none;
     }
